@@ -10,7 +10,7 @@ Bot adaptado do motor UDP do `open.monitor` com visual idêntico ao card de stat
    - **Start Command:** `npm start`
 3. **Environment Variables no Render:**
    - `TOKEN`: Token do seu bot no Discord
-   - `CLIENT_ID`: ID do aplicativo do bot (`1566084741411774514`)
+   - `CLIENT_ID`: ID do aplicativo do bot SEUTOKEN
    - `MONGO_URI`: Sua URL do MongoDB Atlas
 4. **No Discord:**
    - Digite `/painel` em qualquer canal (apenas Administradores veem).
