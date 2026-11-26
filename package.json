@@ -1,0 +1,22 @@
+{
+  "name": "stars-status-bot",
+  "version": "1.0.0",
+  "description": "Bot de Status SA:MP / open.mp estilo Stars Games (Render + Mobile friendly)",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "iconv-lite": "^0.6.3",
+    "mongoose": "^8.12.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
